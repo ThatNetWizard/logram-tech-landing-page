@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Typography Settings */
+  /* Font-families */
+  --font-heading: "Montserrat", sans-serif;
+  --font-body: "Open Sans", sans-serif;
+
+  /* Font-sizes */
+  --fs-xxsm: 1.6rem;
+  --fs-xsm: 1.8rem;
+  --fs-sm: 2rem;
+  --fs-md: 2.4rem;
+  --fs-lg: 3rem;
+  --fs-xl: 3.6rem;
+  --fs-xxl: 4.4rem;
+  --fs-heading: 5.2rem;
+
+  /* Font-weights */
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* Brand Colors */
+  --primary-color: #1f3a8a;
+  --primary-shade-color: #101d45;
+  --primary-tint-color: #e9ebf3;
+  --accent-color: #ff9900;
+  --accent-shade-color: #e68a00;
+  --accent-tint-color: #fff5e6;
+  --bg-color: #f4f4f9;
+  --bg-shade-color: #7a7a7d;
+  --color-white: #fff;
+
+  --transition-speed: 0.4s;
+}
+
+/* ========== GLOBAL MOBILE FOUNDATION ========== */
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 9.6rem;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--bg-shade-color);
+  font-family: var(--font-body);
+  font-weight: var(--font-regular);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+section {
+  padding: 9.6rem 0;
+}
+section:not(.hero__section) {
+  border-top: 1px solid rgba(0, 0, 0, 0.03);
+}
+h1,
+h2,
+h3 {
+  letter-spacing: -0.5px;
+}
+
+p {
+  line-height: 1.7;
+}
+
+.btn-mobile-nav {
+  display: none;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--accent-color);
+  color: var(--primary-color);
+  padding: 1.6rem 3.2rem;
+  font-size: var(--fs-xxsm);
+  font-weight: var(--font-bold);
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: all var(--transition-speed) ease-in-out;
+}
+.btn:hover {
+  background: var(--accent-shade-color);
+  color: var(--primary-color);
+}
+
+.services__card,
+.portfolio__card {
+  transition:
+    transform all 0.03s ease,
+    box-shadow 0.3s ease;
+  will-change: transform;
+}
+
+.hero__content--btn,
+.btn,
+.nav__link--cta {
+  position: relative;
+  overflow: hidden;
+}
+.hero__content--btn:hover,
+.btn:hover,
+.nav__link--cta:hover {
+  transform: translateY(-2px);
+}
+.hero__content--btn:active,
+.btn:active,
+.nav__link--cta:active {
+  transform: translateY(0);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
