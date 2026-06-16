@@ -18,11 +18,7 @@ The project showcases modern HTML5, CSS3, responsive design principles, accessib
 
 ## 🚀 Live Preview
 
-Add your deployment link here after hosting:
-
-```text
-https://your-live-site-link.com
-```
+logram-tech.netlify.app
 
 ---
 
@@ -276,10 +272,10 @@ Peter Lot
 Full Stack Software Developer | UI/UX Designer | Founder, LOGRAM TECH
 
 GitHub:
-Add your GitHub profile link
+https://github.com/ThatNetWizard
 
 LinkedIn:
-Add your LinkedIn profile link
+https://www.linkedin.com/in/peter-lot-9110b1317/
 
 ---
 

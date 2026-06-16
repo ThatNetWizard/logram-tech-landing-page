@@ -358,7 +358,7 @@
   font-size: var(--fs-xsm);
   line-height: 1.8;
   color: var(--primary-color);
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .about__value-list {
@@ -459,9 +459,12 @@
   padding: 3.2rem;
 }
 .portfolio__card--details h3 {
+  /* background: var(--accent-color);
+  padding: 0.5rem;
+  text-align: center; */
   color: var(--accent-color);
   margin-bottom: 0.8rem;
-  font-size: var(--fs-xxsm);
+  font-size: 1.2rem;
   font-weight: var(--font-bold);
 }
 
@@ -482,8 +485,11 @@
   margin-bottom: 1.8rem;
 }
 .contact__subtext {
-  font-size: 1.2rem;
-  line-height: 1.6;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  font-size: var(--fs-xxsm);
+  line-height: 1.7;
 }
 .contact__split {
   display: grid;

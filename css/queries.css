@@ -16,7 +16,6 @@
     padding: 6.4rem 0;
   }
   .header {
-    flex-direction: column;
     height: auto;
     gap: 2.4rem;
     padding: 2.4rem;
@@ -59,8 +58,16 @@
     font-size: var(--fs-md);
   }
 
+  .hero__section {
+    margin-top: -1rem;
+  }
+
+  .about__heading {
+    font-size: var(--fs-xsm);
+  }
   .about__content--wrapper {
     flex-direction: column;
+    padding: 0 0 0 2rem;
   }
   .about__intro {
     font-size: var(--fs-xsm);
@@ -72,8 +79,20 @@
     gap: 1rem;
   }
 
+  .contact__heading {
+    font-size: var(--fs-xsm);
+  }
+
+  .services__heading {
+    font-size: var(--fs-xsm);
+  }
+
   .contact__split {
     grid-template-columns: 1fr;
+  }
+
+  .portfolio__heading {
+    font-size: var(--fs-xsm);
   }
   .form__split {
     flex-direction: column;
@@ -120,6 +139,11 @@
   }
   .portfolio__card--lg {
     min-height: 35rem;
+  }
+
+  .contact__subtext {
+    max-width: 32rem;
+    font-size: 1.5rem;
   }
 }
 
