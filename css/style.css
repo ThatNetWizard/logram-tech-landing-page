@@ -677,6 +677,11 @@ address {
   margin-right: 2.4rem;
 }
 
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
 .copyright {
   text-align: center;
   font-size: var(--fs-sm);

@@ -8,7 +8,7 @@
 
 ![Accessibility](https://img.shields.io/badge/Accessibility-Friendly-blue?style=for-the-badge)
 
-# LOGRAM TECH – Corporate Landing Page
+# QLOGRAM – Corporate Landing Page
 
 A modern, responsive, and professional corporate landing page built for **LOGRAM TECH**, a technology company focused on designing and developing scalable digital systems for businesses.
 
@@ -18,7 +18,7 @@ The project showcases modern HTML5, CSS3, responsive design principles, accessib
 
 ## 🚀 Live Preview
 
-logram-tech.netlify.app
+qlogram.netlify.app
 
 ---
 
@@ -30,7 +30,7 @@ logram-tech.netlify.app
 
 ## 📖 Project Overview
 
-LOGRAM TECH helps businesses build high-performance digital systems that improve efficiency, automate processes, and support growth.
+QLOGRAM, formally LOGRAM TECH, helps businesses build high-performance digital systems that improve efficiency, automate processes, and support growth.
 
 This landing page serves as the company's online presence and introduces visitors to:
 
@@ -236,7 +236,7 @@ git clone https://github.com/ThatNetWizard/logram-tech-landing-page.git
 Navigate into the project:
 
 ```bash
-cd logram-tech-landing-page
+cd qlogram-landing-page
 ```
 
 Open:
@@ -262,6 +262,7 @@ Planned upgrades include:
 - Performance optimization
 - SEO enhancements
 - Analytics integration
+- Use of modern technologies(React or Next.js, TypeScript,TailwindCSS and Node.js for the backend.)
 
 ---
 
@@ -269,7 +270,7 @@ Planned upgrades include:
 
 Peter Lot
 
-Full Stack Software Developer | UI/UX Designer | Founder, LOGRAM TECH
+Full Stack Software Developer | UI/UX Designer | Founder, QLOGRAM
 
 GitHub:
 https://github.com/ThatNetWizard
@@ -281,11 +282,11 @@ https://www.linkedin.com/in/peter-lot-9110b1317/
 
 ## License
 
-© 2026 LOGRAM TECH. All Rights Reserved.
+© 2026 QLOGRAM. All Rights Reserved.
 
 This repository is provided for portfolio and demonstration purposes only.
 
-No part of this project may be copied, modified, distributed, republished, or used commercially without prior written permission from LOGRAM TECH.
+No part of this project may be copied, modified, distributed, republished, or used commercially without prior written permission from QLOGRAM.
 
 ---
 
@@ -304,6 +305,6 @@ while creating a professional corporate website for a technology company.
 
 ---
 
-### LOGRAM TECH
+### QLOGRAM
 
 **Building Digital Systems That Scale.**
