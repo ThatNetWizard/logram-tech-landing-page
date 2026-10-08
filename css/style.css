@@ -679,7 +679,7 @@ address {
 
 .link {
   text-decoration: none;
-  color: #fff;
+  color: var(--accent-color);
 }
 
 .copyright {
